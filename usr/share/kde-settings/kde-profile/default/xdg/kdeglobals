@@ -12,7 +12,7 @@ Theme=breeze
 LookAndFeelPackage=org.ultramarinelinux.ultramarine.desktop
 SingleClick=false
 ColorScheme=BreezeDark
-widgetStyle=Breeze
+widgetStyle=Lightly
 
 # HOW: https://develop.kde.org/deploy/kiosk/introduction/
 # WHY: https://bugzilla.redhat.com/show_bug.cgi?id=1929643
