@@ -9,10 +9,10 @@ toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 Theme=breeze
 
 [KDE]
-LookAndFeelPackage=org.fedoraproject.fedora.desktop
+LookAndFeelPackage=org.ultramarinelinux.ultramarine.desktop
 SingleClick=false
-ColorScheme=BreezeLight
-widgetStyle=Breeze
+ColorScheme=BreezeDark
+widgetStyle=Lightly
 
 # HOW: https://develop.kde.org/deploy/kiosk/introduction/
 # WHY: https://bugzilla.redhat.com/show_bug.cgi?id=1929643

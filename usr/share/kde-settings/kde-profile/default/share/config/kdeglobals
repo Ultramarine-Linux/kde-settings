@@ -9,14 +9,18 @@ font=Noto Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
 toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
-widgetStyle=breeze
+ColorScheme=BreezeDark
 XftAntialias=true
 
 [WM]
 activeFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=breeze
+Theme=Papirus
+
+[KDE]
+widgetStyle=Lightly
+
 
 [KSpell]
 KSpell_Client=4
