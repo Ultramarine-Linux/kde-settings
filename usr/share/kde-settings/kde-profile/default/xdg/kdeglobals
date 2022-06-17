@@ -19,3 +19,4 @@ widgetStyle=Lightly
 [KDE Action Restrictions]
 action/start_new_session=false
 action/switch_user=false
+
