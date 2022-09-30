@@ -8,8 +8,3 @@ if [ -z "$KDE_IS_PRELINKED" ] ; then
   KDE_IS_PRELINKED=1 && export KDE_IS_PRELINKED
 fi
 
-## Disable Qt threaded rendering if using nouveau
-## TODO: Remove after https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/10752
-if [ -d /sys/bus/pci/drivers/nouveau ]; then
-    QSG_RENDER_LOOP="basic" && export QSG_RENDER_LOOP
-fi
