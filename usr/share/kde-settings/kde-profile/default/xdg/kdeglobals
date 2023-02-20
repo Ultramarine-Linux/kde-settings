@@ -13,3 +13,9 @@ LookAndFeelPackage=org.fedoraproject.fedora.desktop
 SingleClick=false
 ColorScheme=BreezeLight
 widgetStyle=Breeze
+
+# HOW: https://develop.kde.org/deploy/kiosk/introduction/
+# WHY: https://bugzilla.redhat.com/show_bug.cgi?id=1929643
+[KDE Action Restrictions]
+action/start_new_session=false
+action/switch_user=false
