@@ -16,7 +16,7 @@ XftAntialias=true
 activeFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=breeze
+Theme=breeze-dark
 
 [KSpell]
 KSpell_Client=4
