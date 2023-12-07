@@ -1,0 +1,6 @@
+#!/bin/sh
+
+## Runs the GUI program from $@ in kwin_wayland
+
+kwin_wayland --xwayland --no-global-shortcuts --no-lockscreen --inputmethod maliit-keyboard --locale1 \
+             --exit-with-session="$*"
