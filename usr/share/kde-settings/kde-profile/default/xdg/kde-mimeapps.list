@@ -1,0 +1,70 @@
+# This file contains Fedora overrides over the KDE defaults
+# found at /usr/share/applications/kde-mimeapps.list
+
+[Default Applications]
+# Packages
+application/x-rpm=org.kde.discover.desktop
+application/vnd.debian.binary-package=org.kde.ark.desktop
+
+# Browser
+x-scheme-handler/http=org.mozilla.firefox.desktop
+x-scheme-handler/https=org.mozilla.firefox.desktop
+application/xhtml+xml=org.mozilla.firefox.desktop
+text/html=org.mozilla.firefox.desktop
+
+# Video Player
+application/x-extension-m4a=org.kde.dragonplayer.desktop
+application/x-extension-mp4=org.kde.dragonplayer.desktop
+application/x-flac=org.kde.dragonplayer.desktop
+application/x-matroska=org.kde.dragonplayer.desktop
+application/x-netshow-channel=org.kde.dragonplayer.desktop
+application/x-quicktime-media-link=org.kde.dragonplayer.desktop
+application/x-quicktimeplayer=org.kde.dragonplayer.desktop
+application/x-smil=org.kde.dragonplayer.desktop
+video/3gp=org.kde.dragonplayer.desktop
+video/3gpp2=org.kde.dragonplayer.desktop
+video/3gpp=org.kde.dragonplayer.desktop
+video/avi=org.kde.dragonplayer.desktop
+video/divx=org.kde.dragonplayer.desktop
+video/dv=org.kde.dragonplayer.desktop
+video/fli=org.kde.dragonplayer.desktop
+video/flv=org.kde.dragonplayer.desktop
+video/mp2t=org.kde.dragonplayer.desktop
+video/mp4=org.kde.dragonplayer.desktop
+video/mp4v-es=org.kde.dragonplayer.desktop
+video/mpeg=org.kde.dragonplayer.desktop
+video/msvideo=org.kde.dragonplayer.desktop
+video/ogg=org.kde.dragonplayer.desktop
+video/quicktime=org.kde.dragonplayer.desktop
+video/vivo=org.kde.dragonplayer.desktop
+video/vnd.divx=org.kde.dragonplayer.desktop
+video/vnd.mpegurl=org.kde.dragonplayer.desktop
+video/vnd.rn-realvideo=org.kde.dragonplayer.desktop
+video/vnd.vivo=org.kde.dragonplayer.desktop
+video/webm=org.kde.dragonplayer.desktop
+video/x-anim=org.kde.dragonplayer.desktop
+video/x-avi=org.kde.dragonplayer.desktop
+video/x-flc=org.kde.dragonplayer.desktop
+video/x-flic=org.kde.dragonplayer.desktop
+video/x-fli=org.kde.dragonplayer.desktop
+video/x-flv=org.kde.dragonplayer.desktop
+video/x-m4v=org.kde.dragonplayer.desktop
+video/x-matroska=org.kde.dragonplayer.desktop
+video/x-mpeg2=org.kde.dragonplayer.desktop
+video/x-mpeg=org.kde.dragonplayer.desktop
+video/x-ms-asf=org.kde.dragonplayer.desktop
+video/x-msvideo=org.kde.dragonplayer.desktop
+video/x-ms-wm=org.kde.dragonplayer.desktop
+video/x-ms-wmv=org.kde.dragonplayer.desktop
+video/x-ms-wmx=org.kde.dragonplayer.desktop
+video/x-ms-wvx=org.kde.dragonplayer.desktop
+video/x-nsv=org.kde.dragonplayer.desktop
+video/x-ogm+ogg=org.kde.dragonplayer.desktop
+video/x-ogm=org.kde.dragonplayer.desktop
+video/x-theora+ogg=org.kde.dragonplayer.desktop
+video/x-theora=org.kde.dragonplayer.desktop
+x-content/video-blueray=org.kde.dragonplayer.desktop
+x-content/video-dvd=org.kde.dragonplayer.desktop
+x-content/video-hddvd=org.kde.dragonplayer.desktop
+x-content/video-svcd=org.kde.dragonplayer.desktop
+x-content/video-vcd=org.kde.dragonplayer.desktop
