@@ -3,9 +3,6 @@ widgetStyle=Breeze
 ColorScheme=BreezeDark
 Name=Breeze Dark
 
-[Icons]
-Theme=Papirus-Dark
-
 [KSpell]
 KSpell_Client=4
 KSpell_Encoding=11

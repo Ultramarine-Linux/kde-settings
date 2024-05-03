@@ -1,10 +1,7 @@
 [General]
 ColorScheme=BreezeDark
 
-[Icons]
-Theme=Papirus-Dark
-
 [KDE]
-LookAndFeelPackage=org.ultramarinelinux.ultramarine.desktop
+LookAndFeelPackage=org.ultramarine-linux.ultramarine.desktop
 ColorScheme=BreezeDark
 widgetStyle=Breeze
