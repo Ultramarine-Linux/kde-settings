@@ -2,4 +2,4 @@
 WallpaperPlugin=org.kde.image
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/backgrounds/ultramarine-linux/default/ultramarine-linux-dark.png
+Image=file:///usr/share/backgrounds/ultramarine-linux/tortuga/tortuga-light.png

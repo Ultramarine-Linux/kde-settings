@@ -16,10 +16,10 @@ XftAntialias=true
 activeFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Papirus
+Theme=Breeze
 
 [KDE]
-widgetStyle=Lightly
+widgetStyle=Breeze
 
 
 [KSpell]
