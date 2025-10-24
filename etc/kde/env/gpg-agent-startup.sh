@@ -13,11 +13,11 @@ if [ -x "${GPG_AGENT}" ] ; then
     GPG_AGENT_PID=`cat ${GPG_AGENT_INFO_FILE} | cut -f2 -d:`
     GPG_PID_NAME=`ps -p ${GPG_AGENT_PID} -o comm=`
     if [ ! "x${GPG_PID_NAME}" = "xgpg-agent" ]; then
-      rm -f "${GPG_AGENT_INFO_FILE}" 2>&1 >/dev/null
+      rm -f "${GPG_AGENT_INFO_FILE}" >/dev/null 2>&1
     else
        GPG_SOCKET=`cat "${GPG_AGENT_INFO_FILE}" | cut -f1 -d: | cut -f2 -d=`
        if ! test -S "${GPG_SOCKET}" -a -O "${GPG_SOCKET}" ; then
-         rm -f "${GPG_AGENT_INFO_FILE}" 2>&1 >/dev/null
+         rm -f "${GPG_AGENT_INFO_FILE}" >/dev/null 2>&1
        fi
     fi
     unset GPG_AGENT_PID GPG_SOCKET GPG_PID_NAME
