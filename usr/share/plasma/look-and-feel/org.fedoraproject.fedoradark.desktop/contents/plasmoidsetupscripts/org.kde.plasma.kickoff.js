@@ -1,0 +1,1 @@
+../../../org.fedoraproject.fedora.desktop/contents/plasmoidsetupscripts/org.kde.plasma.kickoff.js

@@ -1,13 +1,15 @@
 [General]
-ColorScheme=BreezeDark
+fixed=Noto Sans Mono,10,-1,5,50,0,0,0,0,0
+font=Noto Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+
+[Icons]
+Theme=breeze
 
 [KDE]
-LookAndFeelPackage=org.ultramarine-linux.ultramarine.desktop
-ColorScheme=BreezeDark
+LookAndFeelPackage=org.fedoraproject.fedora.desktop
+SingleClick=false
+ColorScheme=BreezeLight
 widgetStyle=Breeze
-
-# HOW: https://develop.kde.org/deploy/kiosk/introduction/
-# WHY: https://bugzilla.redhat.com/show_bug.cgi?id=1929643
-[KDE Action Restrictions]
-action/start_new_session=false
-action/switch_user=false
