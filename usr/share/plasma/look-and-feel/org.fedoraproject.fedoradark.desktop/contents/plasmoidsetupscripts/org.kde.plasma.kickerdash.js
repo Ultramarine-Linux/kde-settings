@@ -1,1 +1,0 @@
-../../../org.fedoraproject.fedora.desktop/contents/plasmoidsetupscripts/org.kde.plasma.kickerdash.js
