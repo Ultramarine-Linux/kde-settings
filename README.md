@@ -2,7 +2,7 @@
 
 This repo holds default settings for Ultramarine Plasma, including the default global theme.
 
-For each release, merge from upstream (https://pagure.io/fedora-kde/kde-settings).
+For each release, merge from upstream (https://forge.fedoraproject.org/kde/kde-settings).
 
 
 ## SOP for new version releases
